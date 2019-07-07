@@ -1,23 +1,26 @@
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-  entry:{
-    index:'./lib/index.tsx'
+  entry: {
+    index: './lib/index.tsx'
   },
-  output:{
-    path:path.resolve(__dirname,'dist/lib'),
-    library:'xui',
-    libraryTarget:'umd'
+  mode:'production',
+  output: {
+    path: path.resolve(__dirname, 'dist/lib'),
+    library: 'xui',
+    libraryTarget: 'umd'
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
-        test:/\.tsx?$/,
-        loader:'awesome-typescript-loader'
+        test: /\.tsx?$/,
+        loader: 'awesome-typescript-loader'
       }
     ]
   },
-  plugins:[
+  plugins: [
     new HtmlWebpackPlugin({
-      template:'index.html'
+      template: 'index.html'
     })
   ]
 }
