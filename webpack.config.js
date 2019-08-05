@@ -1,5 +1,4 @@
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   entry: {
     index: './lib/index.tsx'
@@ -10,6 +9,9 @@ module.exports = {
     library: 'xui',
     libraryTarget: 'umd'
   },
+  resolve: {
+    extensions: ['.js','.jsx','.ts','.tsx']
+  },
   module: {
     rules: [
       {
@@ -17,10 +19,5 @@ module.exports = {
         loader: 'awesome-typescript-loader'
       }
     ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'index.html'
-    })
-  ]
+  }
 }
