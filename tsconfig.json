@@ -23,8 +23,8 @@
     "noUnusedLocals": true
   },
   "include": [
-    "lib/types/custom.d.ts",
-    "lib/**/*"
+    "lib/**/*",
+    "lib/types/custom.d.ts"
   ],
   "exclude": [
     "node_modules",
