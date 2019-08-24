@@ -1,4 +1,5 @@
 const base = require('./webpack.config')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = Object.assign({}, base, {
   mode:'production',
   externals: {
@@ -14,5 +15,8 @@ module.exports = Object.assign({}, base, {
           'amd': 'react-dom',
           'root': 'reactDOM'
       }
-  }
+  },
+  plugins: [
+    new CleanWebpackPlugin(),
+  ]
 })

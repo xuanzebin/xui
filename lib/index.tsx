@@ -1,13 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+// import React from 'react'
+// import ReactDOM from 'react-dom'
 
-import Icon from './icon/Icon'
+// import Icon from './icon/Icon'
 
-ReactDOM.render(
-<div>
-    <Icon 
-        name="jd"
-        onClick={()=>{console.log('hi')}}
-    />
-</div>
-, document.querySelector('#root'))
+// ReactDOM.render(
+// <div>
+//     <Icon 
+//         name="jd"
+//         onClick={()=>{console.log('hi')}}
+//     />
+// </div>
+// , document.querySelector('#root'))
+
+export {default as Icon} from './icon/Icon'

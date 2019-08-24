@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/lib/index",
   "types": "dist/lib/index",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -32,6 +35,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-jest": "^24.8.0",
     "babel-preset-react-app": "^9.0.1",
+    "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^3.2.0",
     "enzyme": "^3.10.0",
