@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npm version $1 && git push --follow-tags
+git add . && git commit . -m "deploy" && npm version $1 && git push origin master:deploy
