@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" time="24.52">
-  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-08-18T16:15:44" time="17.545" tests="1">
-    <testcase classname="button 是个 div" name="button 是个 div" time="0.015">
+<testsuites name="jest tests" tests="7" failures="0" time="3.042">
+  <testsuite name="classnames" errors="0" failures="0" skipped="0" timestamp="2019-08-25T11:17:05" time="1.273" tests="4">
+    <testcase classname="classnames 可以接受一个参数" name="classnames 可以接受一个参数" time="0.004">
+    </testcase>
+    <testcase classname="classnames 可以接受 undefined 作为参数" name="classnames 可以接受 undefined 作为参数" time="0.001">
+    </testcase>
+    <testcase classname="classnames 可以接受各种奇怪的参数" name="classnames 可以接受各种奇怪的参数" time="0">
+    </testcase>
+    <testcase classname="classnames 可以不接受参数" name="classnames 可以不接受参数" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-08-25T11:17:05" time="1.292" tests="1">
+    <testcase classname="button 是个 div" name="button 是个 div" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-08-25T11:17:05" time="1.361" tests="2">
+    <testcase classname="Icon render successfully" name="Icon render successfully" time="0.016">
+    </testcase>
+    <testcase classname="Icon onClick successfully" name="Icon onClick successfully" time="0.039">
     </testcase>
   </testsuite>
 </testsuites>

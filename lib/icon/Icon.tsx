@@ -8,6 +8,7 @@ import classes from '../helper/classes'
 interface IconProps extends React.SVGAttributes<SVGElement>{
     name:string
 }
+
 const Icon:React.FunctionComponent<IconProps> = (props) => {
     let {className, name, ...restProps} = props
     return (
