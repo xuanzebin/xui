@@ -5,4 +5,4 @@
 
 [![CircleCI](https://circleci.com/gh/xuanzebin/xui/tree/deploy.svg?style=svg)](https://circleci.com/gh/xuanzebin/xui/tree/deploy)
 
-[![Coverage](./coverage/badge.svg)](./coverage/lcov-report/index.html)
+[![Coverage Status](https://coveralls.io/repos/github/xuanzebin/xui/badge.svg?branch=deploy)](https://coveralls.io/github/xuanzebin/xui?branch=deploy)
