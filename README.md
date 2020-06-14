@@ -1,5 +1,7 @@
 # xui
 
+这是一个基于react的ui框架
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
